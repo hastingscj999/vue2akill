@@ -37,7 +37,7 @@ new Vue({
 			if(this.credential.username){
 				this.credentials.push(this.event);
 				this.credential = {
-					usenname: '',
+					username: '',
 					password: ''
 				}
 			}
