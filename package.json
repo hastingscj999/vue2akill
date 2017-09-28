@@ -4,11 +4,11 @@
   "description": "vue and flexbox",
   "main": "index.js",
   "scripts": {
-    "test": "console.log(\"running\")"
+    "test": "console.log(\"vue2akill is running\")"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hastingscj999/vue2akill.git"
+    "url": "https://github.com/hastingscj999/vue2akill.git"
   },
   "keywords": [
     "vue2akill"
@@ -16,7 +16,11 @@
   "author": "hastingspace",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hastingscj999/vue2akill/issues"
+    "url": "git+https://github.com/hastingscj999/vue2akill/issues"
   },
-  "homepage": "https://github.com/hastingscj999/vue2akill#readme"
+  "homepage": "https://github.com/hastingscj999/vue2akill#readme",
+  "dependencies": {
+    "flexbox": "0.0.3",
+    "vue": "^2.4.4"
+  }
 }
