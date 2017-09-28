@@ -9,11 +9,11 @@ new Vue({
 	
 	},
 	ready: function(){
-		this.fetchEvents();
+		this.fetchCredentials();
 	},
 	methods: {
-		fetchEvents: function(){
-			var events = [
+		fetchCredentials: function(){
+			var credentials = [
 				{
 					id: 1,
 					username: 'Matt Herron',
