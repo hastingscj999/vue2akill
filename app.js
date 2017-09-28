@@ -1,11 +1,11 @@
 new Vue({
 	el: '#login',
 	data: {
-		credentials: {
+		credential: {
 			username: '',
 			password: ''	
 		},
-		events: []
+		credentials: []
 	
 	},
 	ready: function(){
@@ -30,12 +30,12 @@ new Vue({
 					password: 'password345'
 				}
 			];
-			this.$set('events', events);
+			this.$set('credentials', credentials);
 		},
 
 		authenticate: function(){
 			if(this.credential.username){
-				this.credentials.push(this.event);
+				this.credentials.push(this.credential);
 				this.credential = {
 					username: '',
 					password: ''
