@@ -1,0 +1,35 @@
+<!-- index.html -->
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vue to a Kill</title>
+  <link rel="stylesheet" href="node_modules/flexbox/css/grid.min.css">
+  <link rel="stylesheet" href="css/vue2akill.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="login">
+      <div class="formContainer">
+          <h4>Connect to [Whatever] Account</h4>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="username" v-model="credentials.username"></textarea>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="password" v-model="credentials.password"></textarea>
+          </div>
+          <button class="connect">
+          <!--v-on="click: authenticate" -->
+          Connect</button>
+        </div>
+    </div>
+  </div>
+  
+  
+
+  <!-- JS -->
+  <script src="node_modules/vue/dist/vue.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

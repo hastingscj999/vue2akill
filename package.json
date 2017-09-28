@@ -1,0 +1,22 @@
+{
+  "name": "vue2akill",
+  "version": "0.0.1",
+  "description": "vue and flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"running\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hastingscj999/vue2akill.git"
+  },
+  "keywords": [
+    "vue2akill"
+  ],
+  "author": "hastingspace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hastingscj999/vue2akill/issues"
+  },
+  "homepage": "https://github.com/hastingscj999/vue2akill#readme"
+}

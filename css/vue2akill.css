@@ -1,0 +1,49 @@
+body {
+	background-color: #ccc;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	background-color: #fff;
+	display: table;
+}
+
+.formContainer {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.form-group textarea {
+	position: relative;
+	width: 60%;
+	height: 20px;
+	border: solid 1px #ccc;
+	margin: 6px auto;
+}
+
+.box h4 {
+	text-align: center;
+	margin-bottom: 6px;
+}
+
+.connect {
+	position: relative;
+	background-color: green;
+	align-items: center;
+	color: #fff;
+	border: none;
+	width: 60%;
+	margin: 6px auto;
+	padding: 6px;
+}
